@@ -35,6 +35,8 @@ Run `npm install level` to make sure compilation works on your machine. If it do
 
 Read as much from the resources below as you feel like!
 
+**extra points** Do the levelmeup workshop at [nodeschool.io](http://nodeschool.io/#levelmeup)
+
 ## Resources
 
 * [LevelDB and Node: What is LevelDB Anyway?](http://dailyjs.com/2013/04/19/leveldb-and-node-1/)

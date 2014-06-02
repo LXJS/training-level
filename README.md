@@ -33,6 +33,13 @@ Stretch goals:
 
 Run `npm install level` to make sure compilation works on your machine. If it doesn't, create an issue in this repo and we will help.
 
+Read as much from the resources below as you feel like!
+
+## Resources
+
+* [LevelDB and Node: What is LevelDB Anyway?](http://dailyjs.com/2013/04/19/leveldb-and-node-1/)
+* [LevelDB and Node: Getting Up and Running](http://dailyjs.com/2013/05/03/leveldb-and-node-2/)
+
 ## 27 Jun 17:30h Participants
 
 `TBA`

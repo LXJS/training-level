@@ -4,9 +4,11 @@ level
 
 ## Description
 
-If you've worked with out-of-the-box databse solutions before and went beyond the basic examples,
+If you've worked with out-of-the-box databse solutions before and went beyond the simple every-day use cases,
 you know how odd it is to have to either bend your application into the database's abstraction, or the other way around.
-Being merely a well designed unopinionated building block, LevelDB lets you create your datastructures just the way you need them, and with the right node modules at hand you can build applications in no time.
+Your stack gets bigger and bigger with every datbase you have to add, making you less agile and effective.
+
+LevelDB on the other hand - being merely a well designed unopinionated building block - lets you create your persistent datastructures just the way you need them, and with the right node modules at hand you can build applications in no time, without adding much ballast as it's all writen in JavaScript.
 
 ## With this training, you will learn
 
@@ -29,7 +31,7 @@ Stretch goals:
 
 ## Preparations for this training
 
-Run `npm install level` to make sure compilation works on your machine. If it doesn't, create an issue in this repo so we can help.
+Run `npm install level` to make sure compilation works on your machine. If it doesn't, create an issue in this repo and we will help.
 
 ## 27 Jun 17:30h Participants
 

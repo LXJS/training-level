@@ -37,7 +37,7 @@ Read as much from the resources below as you feel like!
 
 **extra points** Do the levelmeup workshop at [nodeschool.io](http://nodeschool.io/#levelmeup)
 
-## Resources
+### Resources
 
 * [LevelDB and Node: What is LevelDB Anyway?](http://dailyjs.com/2013/04/19/leveldb-and-node-1/)
 * [LevelDB and Node: Getting Up and Running](http://dailyjs.com/2013/05/03/leveldb-and-node-2/)

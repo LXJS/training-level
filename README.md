@@ -47,6 +47,7 @@ Read as much from the resources below as you feel like!
 - Rogério Vicente - [rogeriopvl](https://github.com/rogeriopvl)
 - André Cruz - [satazor](https://github.com/satazor)
 - Pierre Ozoux - [pierreozoux](https://github.com/pierreozoux)
+- Afonso Oliveira - [afonsomota](https://github.com/afonsomota)
 - Ricardo Malta - [ricmalta](https://github.com/ricmalta)
 - Telmo Costa - [telmofcosta](https://github.com/telmofcosta)
 - Miguel Serrano - [miguelvps](https://github.com/miguelvps)
@@ -56,9 +57,11 @@ Read as much from the resources below as you feel like!
 - Alexandre Campos - [axfcampos](https://github.com/axfcampos)
 - João Nelas - [adagios](https://github.com/adagios)
 - Marco Oliveira - [marcooliveira](https://github.com/marcooliveira)
+- Nuno Rosa - [yarcub](https://github.com/yarcub)
 - James Wood - [jamesjwood](https://github.com/jamesjwood)
 - Max Gfeller - [MaxGfeller](https://github.com/MaxGfeller)
 - James Nocentini - [jamiltz](https://github.com/jamiltz)
+- Manuel Cajada - [cajadas](https://github.com/cajadas)
 - Daniel Wellman - [danwellman](https://github.com/danwellman)
 - Jorge Dias - [diasjorge](https://github.com/diasjorge)
 - Kevin Sawicki - [kevinsawicki](https://github.com/kevinsawicki)
@@ -68,6 +71,8 @@ Read as much from the resources below as you feel like!
 - Jonatas Miguel - [jdfm](https://github.com/jdfm)
 - Kristoffer Brabrand - [kbrabrand](https://github.com/kbrabrand)
 - Patrick Marques - [pmarques](https://github.com/pmarques)
+- Pedro Nunes - [pmiguelrn](https://github.com/pmiguelrn)
+- Ana Castanho - [anarcastanho](https://github.com/anarcastanho)
 
 ## 28 jun - 14:30h Participants
 
@@ -92,3 +97,6 @@ Read as much from the resources below as you feel like!
 - Mauro Pompilio - [malditogeek](https://github.com/malditogeek)
 - David Oliveira - [davidfoliveira](https://github.com/davidfoliveira)
 - Fábio Santos - [fabiosantoscode](https://github.com/fabiosantoscode)
+- Mario Goncalves - [mariomc](https://github.com/mariomc)
+- Catarina Moura - [catarinamoura](https://github.com/catarinamoura)
+- Yacine Rezgui - [yrezgui](https://github.com/yrezgui)

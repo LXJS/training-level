@@ -1,0 +1,22 @@
+{
+  "name": "materials",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/materials",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/materials.git"
+  },
+  "dependencies": {
+    "level-hooks": "~4.5.0",
+    "level-post": "~1.0.3",
+    "level-sublevel": "~5.2.0",
+    "level": "~0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}

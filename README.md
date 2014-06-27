@@ -64,6 +64,7 @@ Read as much from the resources below as you feel like!
 - Manuel Cajada - [cajadas](https://github.com/cajadas)
 - Daniel Wellman - [danwellman](https://github.com/danwellman)
 - Jorge Dias - [diasjorge](https://github.com/diasjorge)
+- Alejandro Dev - [ainformatico](https://github.com/ainformatico)
 - Kevin Sawicki - [kevinsawicki](https://github.com/kevinsawicki)
 - Leonardo Aretakis - [leoaretakis](https://github.com/leoaretakis)
 - Marcelo Conceição - [marcelombc](https://github.com/marcelombc)
@@ -73,6 +74,8 @@ Read as much from the resources below as you feel like!
 - Patrick Marques - [pmarques](https://github.com/pmarques)
 - Pedro Nunes - [pmiguelrn](https://github.com/pmiguelrn)
 - Ana Castanho - [anarcastanho](https://github.com/anarcastanho)
+- Nuno Jesus - [nmjesus](https://github.com/nmjesus)
+- Joel Matias - [JoelBMatias](https://github.com/JoelBMatias)
 
 ## 28 jun - 14:30h Participants
 
@@ -80,12 +83,14 @@ Read as much from the resources below as you feel like!
 - David McMullin - [davecocoa](https://github.com/davecocoa)
 - Thomas Parisot - [oncletom](https://github.com/oncletom)
 - Nelson Neves - [nneves](https://github.com/nneves)
+- Diogo Santos - [diogodssantos](https://github.com/diogodssantos)
 - Michael Geers - [naltatis](https://github.com/naltatis)
 - Jorge Braz - [jorgepcbraz](https://github.com/jorgepcbraz)
 - Alex Treppass - [alextreppass](https://github.com/alextreppass)
 - Ricardo Melo - [rjsmelo](https://github.com/rjsmelo)
 - J Oates - [joates](https://github.com/joates)
 - Miguel Coquet - [mcoquet](https://github.com/mcoquet)
+- Sergey Belov - [arikon](https://github.com/arikon)
 - Stefan Jansen - [xtravanta](https://github.com/xtravanta)
 - Luke Bond - [lukebond](https://github.com/lukebond)
 - Hugo Rodrigues - [hugominas](https://github.com/hugominas)
@@ -100,3 +105,5 @@ Read as much from the resources below as you feel like!
 - Mario Goncalves - [mariomc](https://github.com/mariomc)
 - Catarina Moura - [catarinamoura](https://github.com/catarinamoura)
 - Yacine Rezgui - [yrezgui](https://github.com/yrezgui)
+- Carlos Timóteo - [ctimoteo](https://github.com/ctimoteo)
+- João Andrade - [thejoaosa](https://github.com/thejoaosa)

@@ -1,6 +1,6 @@
 
 
-var db = level('./db')
+var db = require('./db');
 var INDEX = require('./index');
 
 var messages = db.sublevel('messages');

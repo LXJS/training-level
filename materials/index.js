@@ -3,8 +3,14 @@ module.exports = function(db, sublevel){
   // ensure index
   db.pre(function(op, add){
     if (op.type == 'put') {
-      // for all the keys
-      //   add({ key: .. value .. type: "put", prefix: sublevel })
+      Object.keys(op.value).forEach(function(key){
+        add({
+          key: /* ... */,
+          value: /* ... */,
+          type: 'put'
+          prefix: sublevel
+        });
+      });
     }
   });
 
@@ -12,7 +18,8 @@ module.exports = function(db, sublevel){
     query: function(key, value, cb){
       var ret = []
       sublevel.createReadStream({
-        // ...
+        start: /* ... */,
+        end: /* ... */
       }) 
       .on('data', function(kv){ ret.push(kv) })
       .on('end', function(){

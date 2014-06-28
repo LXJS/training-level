@@ -25,10 +25,22 @@ function rand (ary) {
 
 setInterval(function () {
   var ts = Date.now()
-  db.put(''+ts, {
-    username: rand(users),
-    message: rand(say),
-    ts: ts,
-    random: Math.random()
-  }, function () { process.stdout.write('.') })
+  var kv = {
+      key:''+ts,
+      value: {
+        username: rand(users),
+        message: rand(say),
+        ts: ts,
+        random: Math.random()
+      },
+      type: 'put'
+    }
+
+  db.put(
+    kv.key, kv.value,
+  function (err) {
+    if(err) throw err
+    process.stdout.write('.')
+  })
+
 }, 1)

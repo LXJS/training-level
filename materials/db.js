@@ -2,24 +2,22 @@ var level = require('level')
 var path = require('path')
 var hooks = require('level-hooks')
 
+var sublevel = require('level-sublevel')
 
 // level(path, options)
-var db = level(path.join(__dirname, 'db'), {valueEncoding: 'json'})
-
-hooks(db)
+var db = sublevel(level(path.join(__dirname, 'db'), {valueEncoding: 'json'}))
 
 module.exports = db
 
-db.hooks.pre({end: 'by-'}, function (kv, add) {
-  if(Math.random() < 0.01) process.exit(1)
+var userDb = db.sublevel('by-user')
 
-  if(kv.key > 'by-') return
-
+db.pre(function (kv, add) {
   add({
-      key: 'by-user!' + kv.value.username + '!' + kv.value.ts,
-      value: kv.key,
-      type: 'put'
-    })
+    key: kv.value.username + '!' + kv.value.ts,
+    value: kv.key,
+    type: 'put',
+    prefix: userDb
+  })
 
 })
 

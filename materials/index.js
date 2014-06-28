@@ -5,9 +5,9 @@ module.exports = function(db, sublevel){
     if (op.type == 'put') {
       Object.keys(op.value).forEach(function(key){
         add({
-          key: /* ... */,
-          value: /* ... */,
-          type: 'put'
+          key: [key, op.value[key], op.key].join('!'),
+          value: op.value,
+          type: 'put',
           prefix: sublevel
         });
       });
@@ -18,8 +18,8 @@ module.exports = function(db, sublevel){
     query: function(key, value, cb){
       var ret = []
       sublevel.createReadStream({
-        start: /* ... */,
-        end: /* ... */
+        start: [key, value, ''].join('!'),
+        end: [key, value, '~'].join('!')
       }) 
       .on('data', function(kv){ ret.push(kv) })
       .on('end', function(){

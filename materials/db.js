@@ -8,6 +8,7 @@ db = sublevel(db)
 
 var messageDb = db.sublevel('messages');
 var messagesByAuthor = db.sublevel('messages-by-author');
+db.index = require('./index')(messageDb, messagesByAuthor);
 
 messageDb.pre(function(op, add, batch){
   if (op.type == 'put') {

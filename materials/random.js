@@ -15,8 +15,8 @@ var users = [
 
 var say = [
   'hello',
-  'databases!'
-
+  'databases!',
+  'leveldb is cool'
 ]
 
 function rand (ary) {
@@ -24,10 +24,11 @@ function rand (ary) {
 }
 
 setInterval(function () {
-  db.put(''+Date.now(), {
+  var ts = Date.now()
+  db.put(''+ts, {
     username: rand(users),
-    
-
-  }
-
+    message: rand(say),
+    ts: ts,
+    random: Math.random()
+  }, function () { process.stdout.write('.') })
 }, 1)
